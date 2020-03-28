@@ -1,6 +1,6 @@
 package com.carrx.demo.middleware.common.entity;
 
-import com.carrx.demo.middleware.common.constant.Constants;
+import com.carrx.demo.common.constants.Constants;
 
 /**
  * 统一接口响应实体类

@@ -7,14 +7,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.carrx.demo.middleware.common.component.PageProperties;
-import com.carrx.demo.middleware.common.constant.Constants;
-import com.carrx.demo.middleware.common.constant.ResponseConstants;
+import com.carrx.demo.common.constants.Constants;
+import com.carrx.demo.common.constants.ResponseConstants;
 import com.carrx.demo.middleware.common.entity.BaseEntity;
 import com.carrx.demo.middleware.common.entity.PageModel;
 import com.carrx.demo.middleware.common.exception.BusinessException;
 import com.carrx.demo.middleware.common.mapper.BaseCrudMapper;
 import com.carrx.demo.middleware.common.service.BaseCrudService;
-import com.carrx.demo.middleware.utils.StringUtils;
+import com.carrx.demo.common.utils.StringUtils;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 

@@ -1,4 +1,4 @@
-package com.carrx.demo.middleware.common.constant;
+package com.carrx.demo.common.constants;
 
 /**
  * 通用常量

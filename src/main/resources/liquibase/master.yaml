@@ -1,5 +1,3 @@
 databaseChangeLog:
   - include:
-      file: classpath:liquibase/201912/master_201912.yaml
-  - include:
-      file: classpath:liquibase/202001/master_202001.yaml
+      file: classpath:liquibase/pagehelper/pagehelper.yaml

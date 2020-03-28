@@ -3,7 +3,7 @@ package com.carrx.demo.middleware.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.carrx.demo.middleware.common.constant.Constants;
+import com.carrx.demo.common.constants.Constants;
 import com.carrx.demo.middleware.dao.UserDao;
 import com.carrx.demo.middleware.entity.UserEntity;
 import com.carrx.demo.middleware.service.UserService;

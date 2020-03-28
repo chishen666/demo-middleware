@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.carrx.demo.middleware.common.entity.Response;
 import com.carrx.demo.middleware.entity.UserEntity;
-import com.carrx.demo.middleware.utils.RedisUtils;
+import com.carrx.demo.common.utils.RedisUtils;
 
 /**
  * Redis测试类

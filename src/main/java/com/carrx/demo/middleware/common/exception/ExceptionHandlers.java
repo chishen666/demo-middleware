@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.carrx.demo.middleware.common.constant.Constants;
+import com.carrx.demo.common.constants.Constants;
 import com.carrx.demo.middleware.common.entity.Response;
 
 /**

@@ -1,5 +1,0 @@
-databaseChangeLog:
-  - include:
-      file: classpath:liquibase/201912/20191227.yaml
-  - include:
-      file: classpath:liquibase/201912/20191231.yaml

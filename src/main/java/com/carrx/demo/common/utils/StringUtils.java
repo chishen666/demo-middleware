@@ -1,4 +1,4 @@
-package com.carrx.demo.middleware.utils;
+package com.carrx.demo.common.utils;
 
 /**
  * 字符串处理工具类

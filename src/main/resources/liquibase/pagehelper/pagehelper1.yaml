@@ -1,0 +1,29 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20200326_pagehelper-1
+      author: carl
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    primaryKey: true
+                  name: id
+                  type: VARCHAR(255)
+              - column:
+                  name: subject
+                  remarks: 主题
+                  type: VARCHAR(255)
+              - column:
+                  name: desc
+                  remarks: 描述
+                  type: VARCHAR(1024)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: log_time
+                  remarks: 日志时间
+                  type: datetime
+            tableName: page_log
+            remarks: pagehelper测试表
+

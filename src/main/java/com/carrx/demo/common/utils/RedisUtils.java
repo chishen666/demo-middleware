@@ -1,4 +1,4 @@
-package com.carrx.demo.middleware.utils;
+package com.carrx.demo.common.utils;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;

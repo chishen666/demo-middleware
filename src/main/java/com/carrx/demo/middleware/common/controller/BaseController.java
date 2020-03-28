@@ -3,10 +3,10 @@ package com.carrx.demo.middleware.common.controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.carrx.demo.middleware.common.constant.ResponseConstants;
+import com.carrx.demo.common.constants.ResponseConstants;
 import com.carrx.demo.middleware.common.entity.BaseEntity;
 import com.carrx.demo.middleware.common.exception.BusinessException;
-import com.carrx.demo.middleware.utils.StringUtils;
+import com.carrx.demo.common.utils.StringUtils;
 
 /**
  * 基础通用Contrller
