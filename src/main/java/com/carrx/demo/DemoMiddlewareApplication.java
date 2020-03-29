@@ -15,7 +15,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  * @Date: 2019/12/31 13:46
  **/
 @SpringBootApplication
-@MapperScan(basePackages = {"com.carrx.demo.middleware.mapper"})
+@MapperScan(basePackages = {"com.carrx.demo.common.mapper"})
 public class DemoMiddlewareApplication {
 
     public static void main(String[] args) {
