@@ -1,5 +1,0 @@
-databaseChangeLog:
-  - include:
-      file: classpath:liquibase/pagehelper/pagehelper1.yaml
-
-

@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: 20200326_pagehelper-1
+      id: pagehelper-1
       author: carl
       changes:
         - createTable:
