@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.carrx.demo.pagehelper.PageHelperMapper">
+<mapper namespace="com.carrx.demo1.PageHelperMapper">
 
     <select id="listPageLogs" resultType="com.carrx.demo.pagehelper.PageLog">
         select * from page_log

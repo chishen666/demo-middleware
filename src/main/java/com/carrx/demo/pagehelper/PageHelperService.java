@@ -1,5 +1,6 @@
 package com.carrx.demo.pagehelper;
 
+import com.carrx.demo1.PageHelperMapper;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.stereotype.Service;
@@ -21,7 +22,7 @@ public class PageHelperService {
         for (int i = 0; i < 1000; i++) {
             String ii = i + "";
             PageLog pageLog = new PageLog(ii, "subject" + ii, ii + "desc", new Date());
-            pageHelperMapper.insert(pageLog);
+            pageHelperMapper.insert1(pageLog);
 
         }
     }
